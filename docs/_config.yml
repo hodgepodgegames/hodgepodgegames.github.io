@@ -13,16 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Hodgepodge Thoughts
+email: michael@hodgepodgegames.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+	This is a blog to just hold any thoughts or discoveries that I want to share
+	while I work on getting my independant game company off the ground.
+	In general it will be indie/development related. I am stumbling my
+	way through this blind just like most people, and hopefully I can help
+	someone else out if they run into any of the same issues I have.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: GamesHodgepodge
+github_username:  hodgepodgegames
 
 # Build settings
 markdown: kramdown
