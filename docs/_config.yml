@@ -16,11 +16,11 @@
 title: Hodgepodge Thoughts
 email: michael@hodgepodgegames.dev
 description: >- # this means to ignore newlines until "baseurl:"
-	This is a blog to just hold any thoughts or discoveries that I want to share
-	while I work on getting my independant game company off the ground.
-	In general it will be indie/development related. I am stumbling my
-	way through this blind just like most people, and hopefully I can help
-	someone else out if they run into any of the same issues I have.
+ This is a blog to just hold any thoughts or discoveries that I want to share
+ while I work on getting my independant game company off the ground.
+ In general it will be indie/development related. I am stumbling my
+ way through this blind just like most people, and hopefully I can help
+ someone else out if they run into any of the same issues I have.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: GamesHodgepodge
@@ -29,8 +29,10 @@ github_username:  hodgepodgegames
 # Build settings
 markdown: kramdown
 theme: minima
+# remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
